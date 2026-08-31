@@ -1,0 +1,53 @@
+# Local configuration
+config/config.sh
+
+# Input/output data
+data/
+work/
+reference/
+BQSR/
+raw_bam/
+marked/
+gvcf/
+vcf/
+joint/
+final_vcf/
+genotype_vcf/
+01_bwa_bqsr/
+01_deepvariant/
+02_haplotypecaller/
+02_glnexus/
+03_genotype/
+04_vqsr/
+clean_fq/
+qc_reports/
+tmp/
+
+# Genomic data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.g.vcf.gz
+*.bcf
+*.tbi
+*.csi
+*.interval_list
+
+# Logs/generated scheduler scripts
+*.log
+*.out
+*.err
+*.timing.log
+*.slurm.sh
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
